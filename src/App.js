@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Preheader from "./components/Preheader";
+import {
+  BrowserRouter as
+  Router,
+  Routes,
+  Route
+} from "react-router-dom"
+import Home from "./components/Home";
+import Fashion from "./components/Fashion";
+import Kitchen from "./components/Kitchen";
+import Tech from "./components/Tech";
+import Furniture from "./components/Furniture";
+import Book from "./components/Book";
+import Footer from "./components/Footer";
+import Checkout from "./components/Checkout";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div className="app">
+      <Routes>
+      <Route path='/checkout' element={<><Preheader/><Header/><Checkout/><Footer/></>}/>
+      <Route path='/fashion' element={<><Preheader/><Header/><Fashion/><Footer/></>}/>
+      <Route path='/kitchen-utensils' element={<><Preheader/><Header/><Kitchen/><Footer/></>}/>
+      <Route path='/tech' element={<><Preheader/><Header/><Tech/><Footer/></>}/>
+      <Route path='/furniture' element={<><Preheader/><Header/><Furniture/><Footer/></>}/>
+      <Route path='/books' element={<><Preheader/><Header/><Book/><Footer/></>}/>
+      <Route path='/' element={<><Preheader/><Header/><Home/><Footer/></>}/>
+      
+      </Routes>
+        
     </div>
+    </Router>
   );
 }
 

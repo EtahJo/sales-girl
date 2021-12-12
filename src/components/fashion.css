@@ -1,0 +1,18 @@
+.fashion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.fashion__title{
+    margin: auto;
+}
+.fashion__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.fashion__row{
+    display: flex;
+}

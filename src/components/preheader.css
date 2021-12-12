@@ -1,0 +1,15 @@
+.pre__header{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 60px;
+    max-width: 20%;
+    align-items: center;
+    margin: auto;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    margin-bottom: 21px;
+    margin-top: 20px;
+    position: sticky;
+}

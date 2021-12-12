@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    background-color:rgb(170, 245, 245) ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-top: 30px;
+    
+    *width: 100%;
+     
+    margin-top: 10px;
+
+}
+.footer__brandLogos>img{
+    max-height: 200px;
+    width: 40%;
+    object-fit: contain;
+    margin-top: 5px;
+    border: none;
+    border-radius: 90px;
+    
+
+}
+.footer__brandLogos{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.footer__support{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+.footer__company{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer__terms{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-left: 100px;
+}

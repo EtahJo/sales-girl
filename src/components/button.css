@@ -1,0 +1,7 @@
+.button{
+    background: aqua;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color:black white aqua;
+    color: black;
+}
