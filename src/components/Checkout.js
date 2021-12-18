@@ -23,6 +23,7 @@ function Checkout() {
                 <div className="checkout_sectionProducts">
                     {basket.map(item=>(
                           <CheckoutProduct
+                          id={item.id}
                           image={item.image}
                           title={item.title}
                           price={item.price}
@@ -40,8 +41,8 @@ function Checkout() {
                 renderText={(value)=>(
                     <>
                      <h2>Total</h2>
-                    <h5>Items:{basket?.length}</h5>
-                    <h5>Price:{value}</h5>
+                    <h4>Items:{basket?.length}</h4>
+                    <h4>Price:{value}</h4>
                     </>
                 )}
                 decimalScale={2}

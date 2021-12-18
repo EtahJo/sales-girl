@@ -1,10 +1,10 @@
-.fashion{
+.bestseller{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+    margin: auto;
 }
-.fashion__title{
+.bestseller__title{
     margin: auto;
     background-color: aqua;
     margin-top: 10px;
@@ -12,12 +12,12 @@
     border: 2px solid black;
     z-index: 100;
 }
-.fashion__body{
+.bestseller__product{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
 }
-.fashion__row{
+.bestseller__row{
     display: flex;
 }

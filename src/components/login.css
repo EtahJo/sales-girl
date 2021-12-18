@@ -1,0 +1,90 @@
+.login{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.login-header{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding:10px 40px ;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.login-style{
+    display: flex;
+    justify-content: center;
+}
+
+
+.login-body{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid aqua;
+    padding: 40px;
+    width: 20%;
+    background-color: rgb(5, 4, 4);
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+label{
+    color: white;
+    font-size: 20px;
+
+}
+input{
+    width: 70%;
+    height: 20px;
+    border: 3px solid aqua;
+    margin:auto;
+   
+   
+}
+.login-email{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+ 
+}
+.login-email >input{
+    margin-right: 10px;
+}
+.login-password{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.login-style>button{
+    padding: 5px 0;
+    font-size: 15px;
+    margin:  5px 0px 0px 30px;
+    width: 40%;
+    height: 30px;
+    background-color: white;
+    border: 3px solid aqua;
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+h5{
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: aqua underline;
+}
+.login-body>img{
+    width: 20%;
+    height: 5%;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 30%;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid aqua;
+    background-color: white;
+    margin-top: 20px;
+}

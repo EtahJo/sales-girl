@@ -39,6 +39,10 @@
     background: black;
     padding: 5px;
 }
+.home__slidingText>h2>a{
+    color: aqua;
+    text-decoration: underline;
+}
 .home__row{
     display: flex;
     z-index: 1;

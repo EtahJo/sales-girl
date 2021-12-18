@@ -10,15 +10,9 @@ function Fashion() {
             </div>
             <div className="fashion__body">
             <div className="fashion__row">
+
                 <Product
-                title="dress 1"
-                designer="Liz"
-                image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_small-5.jpg"
-                text="include text"
-                price={3000}
-                rating={3}
-                />
-                <Product
+                id='1234'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -27,6 +21,7 @@ function Fashion() {
                 rating={4}
                 />
                 <Product
+                id='12345'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -35,6 +30,7 @@ function Fashion() {
                 rating={5}
                 />
                  <Product
+                 id='12346'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -42,6 +38,7 @@ function Fashion() {
                 price={3000}
                 />
                 <Product
+                id='12346'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -51,7 +48,9 @@ function Fashion() {
                 
             </div >
             <div className="fashion__row">
+          
                 <Product
+                id='12348'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -59,13 +58,7 @@ function Fashion() {
                 price={3000}
                 />
                 <Product
-                title="dress 1"
-                designer="Liz"
-                image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
-                text="include text"
-                price={3000}
-                />
-                <Product
+                id='12349'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -73,6 +66,7 @@ function Fashion() {
                 price={3000}
                 />
                  <Product
+                 id='12391'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
@@ -80,6 +74,7 @@ function Fashion() {
                 price={3000}
                 />
                 <Product
+                id='123492'
                 title="dress 1"
                 designer="Liz"
                 image="https://www.bellanaija.com/wp-content/uploads/2021/09/Cameroon_Fashion_Art_2_small-scaled.jpg"
